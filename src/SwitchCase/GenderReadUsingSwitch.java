@@ -1,3 +1,5 @@
+package SwitchCase;
+
 import java.util.Scanner;
 
 public class GenderReadUsingSwitch {

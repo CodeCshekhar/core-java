@@ -1,3 +1,5 @@
+package SwitchCase;
+
 import java.util.Scanner;
 public class WeekdayNumberUsingSwitch {
     public static void main(String[] args) {
