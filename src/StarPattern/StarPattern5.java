@@ -1,3 +1,5 @@
+package StarPattern;
+
 public class StarPattern5 {
     public static void main(String[] args) {
         int size = 7; // The size of the triangle's base

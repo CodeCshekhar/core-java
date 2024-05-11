@@ -1,3 +1,5 @@
+package StarPattern;
+
 public class StarPattern2 {
 
 

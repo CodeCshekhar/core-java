@@ -1,3 +1,5 @@
+package ArmstrongNumber;
+
 public class ArmstrongNumber1 {
     public static void main(String[] args) {
 

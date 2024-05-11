@@ -1,3 +1,5 @@
+package Operators;
+
 public class ArithemeticOps {
     public static void main(String[]args){
         // Addition

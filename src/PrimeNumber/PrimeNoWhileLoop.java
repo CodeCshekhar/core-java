@@ -1,6 +1,8 @@
+package PrimeNumber;
+
 import java.util.Scanner;
 
-public class PrimeNoDowhile {
+public class PrimeNoWhileLoop {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number: ");
@@ -9,13 +11,13 @@ public class PrimeNoDowhile {
 
         int i = 2;
         boolean isPrime = true;
-        do {
+        while (i <= num / 2) {
             if (num % i == 0) {
                 isPrime = false;
                 break;
             }
             i++;
-        } while (i <= num / 2);
+        }
 
         if (isPrime && num > 1) {
             System.out.println(num + " is a prime number.");

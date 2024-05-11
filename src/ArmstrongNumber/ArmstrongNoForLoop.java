@@ -1,6 +1,8 @@
+package ArmstrongNumber;
+
 import java.util.Scanner;
 
-public class ArmstrongNoWhileLoop {
+public class ArmstrongNoForLoop {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number: ");
@@ -10,17 +12,13 @@ public class ArmstrongNoWhileLoop {
         int originalNum, remainder, result = 0, n = 0;
         originalNum = num;
 
-        while (originalNum != 0) {
-            originalNum /= 10;
-            ++n;
-        }
+        for (; originalNum != 0; originalNum /= 10, ++n);
 
         originalNum = num;
 
-        while (originalNum != 0) {
+        for (; originalNum != 0; originalNum /= 10) {
             remainder = originalNum % 10;
             result += Math.pow(remainder, n);
-            originalNum /= 10;
         }
 
         if (result == num)
@@ -28,5 +26,4 @@ public class ArmstrongNoWhileLoop {
         else
             System.out.println(num + " is not an Armstrong number.");
     }
-
 }

@@ -1,3 +1,5 @@
+package Operators;
+
 public class EqualityOps {
 
         public static void main(String[] args) {

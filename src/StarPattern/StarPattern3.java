@@ -1,3 +1,5 @@
+package StarPattern;
+
 public class StarPattern3 {
     public static void main(String[] args) {
         int rows = 5; // You can change this value to increase or decrease the size of the triangle
