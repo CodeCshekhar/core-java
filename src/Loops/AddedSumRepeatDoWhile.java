@@ -2,7 +2,7 @@ package Loops;
 
 import java.util.Scanner;
 
-public class AddedSumRepeat {
+public class AddedSumRepeatDoWhile {
     public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
             char repeat;
