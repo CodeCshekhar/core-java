@@ -3,10 +3,7 @@ package Collections.HashSet;
 import java.util.HashSet;
 
 public class CheckingEmptyOrNot {
-
-
-    public class Exercise5 {
-        public static void main(String[] args) {
+    public static void main(String[] args) {
             // Create a empty hash set
             HashSet<String> h_set = new HashSet();
             // use add() method to add values in the hash set
@@ -24,4 +21,4 @@ public class CheckingEmptyOrNot {
         }
     }
 
-}
+
