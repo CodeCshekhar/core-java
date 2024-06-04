@@ -4,7 +4,7 @@ public class TestVehicle {
 
     public static void main(String[] args) {
         Vehicle Vc = new Vehicle();
-        System.out.println("Bike has =" + "\n" + Vc.fuelType + "\n" + Vc.transmission);
+        System.out.println("Bike has =" + "\n" + Vc.fuelType + "\n" + Vc.transmission + "\n" + Vc.automatic);
 
         System.out.println("------------------");
 
