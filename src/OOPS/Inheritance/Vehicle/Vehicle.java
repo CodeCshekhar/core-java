@@ -1,5 +1,5 @@
 package OOPS.Inheritance.Vehicle;
-import java.util.Scanner;
+
 
 public class Vehicle {
     String fuelType;
