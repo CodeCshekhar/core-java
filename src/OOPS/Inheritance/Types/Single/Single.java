@@ -1,17 +1,14 @@
 package OOPS.Inheritance.Types.Single;
 
-public class Single{
-    String S = "Single inheritance";
+class A{
+    String S1 = "This is";
 
 }
-
-class One extends Single {
-    public static void main(String[] args) {
-        Single s = new Single();
-        System.out.println("This is "+ s.S);
-
-    }
+class B extends A{
+    String S2 = " Single Inheritance";
 }
+
+
 
 
 
