@@ -5,16 +5,19 @@ package OOPS.Abstraction;
 abstract class Animal {
     private String name;
 
-    public Animal(String name) { this.name = name; }
+    public Animal(String name) {
+        this.name = name; }
 
     public abstract void makeSound();
 
-    public String getName() { return name; }
+    public String getName() {
+        return name; }
 }
 
 
 class Dog extends Animal {
-    public Dog(String name) { super(name); }
+    public Dog(String name) {
+        super(name); }
 
     public void makeSound()
     {
@@ -24,7 +27,8 @@ class Dog extends Animal {
 
 
 class Cat extends Animal {
-    public Cat(String name) { super(name); }
+    public Cat(String name) {
+        super(name); }
 
     public void makeSound()
     {
