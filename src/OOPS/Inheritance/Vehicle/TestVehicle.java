@@ -14,7 +14,7 @@ public class TestVehicle {
         System.out.println("------------------");
 
         Car Cr = new Car();
-        System.out.println("Car has =" + "\n" + Cr.fuel + "\n" + Cr.seats);
+        System.out.println("CarExample has =" + "\n" + Cr.fuel + "\n" + Cr.seats);
 
         System.out.println("------------------");
 
