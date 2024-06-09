@@ -37,7 +37,7 @@ class Cat extends Animal {
 }
 
 
-public class AbstractionExample {
+public class AnimalExample {
 
     public static void main(String[] args)
     {
