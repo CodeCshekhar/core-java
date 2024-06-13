@@ -24,10 +24,4 @@ class Dog extends Animal{
         super.bark();
     }
 }
-public class AnimalExample {
-    public static void main(String[] args) {
-        Dog d = new Dog();
-        d.bark();
-        d.eat();
-    }
-}
+
