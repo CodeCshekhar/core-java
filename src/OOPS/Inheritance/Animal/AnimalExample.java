@@ -4,7 +4,7 @@ package OOPS.Inheritance.Animal;
 class Animal{
 
     public void eat(){
-        System.out.println(" the food has been eaten");
+        System.out.println("the food has been eaten");
     }
 
     public void bark(){
