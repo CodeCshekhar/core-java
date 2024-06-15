@@ -1,0 +1,23 @@
+package collections.hashSet;
+
+ import java.util.HashSet;
+
+public class GetNumberOfElements {
+    public static void main(String[] args) {
+
+             // Create a empty hash set
+        HashSet<String> hashset = new HashSet<String>();
+            // use add() method to add values in the hash set
+                hashset.add("Red");
+                hashset.add("Green");
+                hashset.add("Black");
+                hashset.add("White");
+                hashset.add("Pink");
+                hashset.add("Yellow");
+
+            System.out.println("Original Hash Set: " + hashset);
+            System.out.println("Size of the Hash Set: " + hashset.size());
+        }
+    }
+
+
