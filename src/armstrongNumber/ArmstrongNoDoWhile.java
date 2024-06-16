@@ -25,9 +25,9 @@ public class ArmstrongNoDoWhile {
             originalNum /= 10;
         } while (originalNum != 0);
 
-//        if (result == num)
-//            System.out.println(num + " is an Armstrong number.");
-//        else
-//            System.out.println(num + " is not an Armstrong number.");
+        if (result == num)
+            System.out.println(num + " is an Armstrong number.");
+        else
+            System.out.println(num + " is not an Armstrong number.");
     }
 }
