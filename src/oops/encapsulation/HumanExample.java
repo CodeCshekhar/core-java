@@ -24,7 +24,6 @@ class Person {
 
 
 public class HumanExample {
-
     public static void main(String[] args)
     {
         Person person = new Person();
