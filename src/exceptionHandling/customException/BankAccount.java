@@ -1,4 +1,4 @@
-package exceptionHandling;
+package exceptionHandling.customException;
 
 // Define a custom exception by extending the Exception class
 class CustomException extends Exception {
