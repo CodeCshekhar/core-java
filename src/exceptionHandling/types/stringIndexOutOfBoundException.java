@@ -4,7 +4,7 @@ public class stringIndexOutOfBoundException {
     public static void main(String[] args) {
         try{
 
-            String s = "This is what what i am typing ";
+            String s = "This is  what i am typing ";
 
             //Checking the character position
             char c = s.charAt(50);
