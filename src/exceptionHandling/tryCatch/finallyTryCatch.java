@@ -1,6 +1,6 @@
 package exceptionHandling.tryCatch;
 
-public class tryCatch {
+public class finallyTryCatch {
     public static void main(String[] args) {
             try {
                 int[] numbers = {1, 2, 3};
