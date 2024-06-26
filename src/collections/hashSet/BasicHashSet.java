@@ -2,7 +2,6 @@ package collections.hashSet;
 
 import java.util.HashSet;
 import java.util.Iterator;
-
 public class BasicHashSet {
     public static void main(String[] args) {
             // Creating a HashSet
@@ -17,7 +16,7 @@ public class BasicHashSet {
             // Adding a null value
             hset.add(null);
 
-            // Displaying the HashSet
+            // Displaying the HashSe
             System.out.println("HashSet: " + hset);
 
             // Removing an element
