@@ -45,7 +45,10 @@ public class HashMapUsingStream {
 
             // Using entrySet to iterate over map entries
             map.entrySet().stream()
-                    .forEach(entry -> System.out.println("Key: " + entry.getKey() + ", Value: " + entry.getValue()));
+                    .forEach(entry -> System.out.println("Key: "
+                            + entry.getKey()
+                            + ", Value: "
+                            + entry.getValue()));
 
             // Using keySet to iterate over keys
             map.keySet().stream()
