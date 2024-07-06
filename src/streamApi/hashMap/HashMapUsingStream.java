@@ -11,8 +11,10 @@ public class HashMapUsingStream {
             HashMap<String, Integer> map = new HashMap<>();
 
             // put method using Streams
-            map = (HashMap<String, Integer>) Stream.of(new Object[][] {{ "One", 1 }, { "Two", 2 }, { "Three", 3 }})
-                    .collect(Collectors.toMap(data -> (String) data[0], data -> (Integer) data[1]));
+            map = (HashMap<String, Integer>) Stream.of(new Object[][] {
+                    { "One", 1 }, { "Two", 2 }, { "Three", 3 }
+            })
+            .collect(Collectors.toMap(data -> (String) data[0], data -> (Integer) data[1]));
 
             // putIfAbsent method
             map.putIfAbsent("Four", 4);
