@@ -1,4 +1,4 @@
-package breakContinue;
+package breakContinue.continueExamples;
 
 public class WhileLoopContinue {
     public static void main(String[] args) {
