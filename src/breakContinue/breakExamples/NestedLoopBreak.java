@@ -1,4 +1,4 @@
-package breakContinue;
+package breakContinue.breakExamples;
 
 public class NestedLoopBreak {
     public static void main(String[] args) {
